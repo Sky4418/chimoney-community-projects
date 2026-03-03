@@ -1,0 +1,21 @@
+{
+  "node": "n8n-nodes-chimoney.Chimoney",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": [
+    "Finance",
+    "Sales"
+  ],
+  "resources": {
+    "credentialDocumentation": [
+      {
+        "url": "https://chimoney.readme.io/"
+      }
+    ],
+    "primaryDocumentation": [
+      {
+        "url": "https://chimoney.readme.io/"
+      }
+    ]
+  }
+}

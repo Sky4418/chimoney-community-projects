@@ -1,0 +1,45 @@
+{
+  "name": "n8n-nodes-chimoney",
+  "version": "0.1.0",
+  "description": "n8n node for Chimoney payment integration",
+  "keywords": [
+    "n8n-community-node-package",
+    "chimoney",
+    "payments",
+    "fintech"
+  ],
+  "license": "MIT",
+  "homepage": "https://chimoney.io",
+  "author": {
+    "name": "Community Contributor",
+    "email": "contributor@example.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chimoney/chimoney-community-projects.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/ChimoneyApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Chimoney/Chimoney.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.3",
+    "typescript": "^5.9.3"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "^1.0.0"
+  }
+}
